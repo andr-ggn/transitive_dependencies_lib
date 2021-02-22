@@ -22,21 +22,15 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/Andrii Hahan/transitive_dependencies_lib'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrii Hahan' => 'andrii.h@appsflyer.com' }
   s.source           = { :git => 'https://github.com/Andrii Hahan/transitive_dependencies_lib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'transitive_dependencies_lib/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'transitive_dependencies_lib' => ['transitive_dependencies_lib/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AppsFlyerFramework', '6.2.2'
 end
