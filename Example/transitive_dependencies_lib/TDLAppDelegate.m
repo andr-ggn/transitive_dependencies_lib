@@ -8,11 +8,15 @@
 
 #import "TDLAppDelegate.h"
 
+@import AppsFlyerLib;
+
 @implementation TDLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[AppsFlyerLib shared] setAppsFlyerDevKey:@""];
+    [[AppsFlyerLib shared] setAppleAppID:@""];
+    // ...
     return YES;
 }
 

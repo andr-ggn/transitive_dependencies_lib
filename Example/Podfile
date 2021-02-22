@@ -3,11 +3,5 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'transitive_dependencies_lib_Example' do
-  pod 'transitive_dependencies_lib', :path => '../'
-
-  target 'transitive_dependencies_lib_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'transitive_dependencies_lib'
 end
