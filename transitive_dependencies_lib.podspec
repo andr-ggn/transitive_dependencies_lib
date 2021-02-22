@@ -25,9 +25,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrii Hahan' => 'andrii.h@appsflyer.com' }
   s.source           = { :git => 'https://github.com/andr-ggn/transitive_dependencies_lib.git', :tag => s.version.to_s }
-
+  s.static_framework = true
   s.ios.deployment_target = '9.0'
-
+  
   s.source_files = 'transitive_dependencies_lib/Classes/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
