@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Andrii Hahan/transitive_dependencies_lib'
+  s.homepage         = 'https://github.com/andr-ggn/transitive_dependencies_lib'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrii Hahan' => 'andrii.h@appsflyer.com' }
   s.source           = { :git => 'https://github.com/andr-ggn/transitive_dependencies_lib.git', :tag => s.version.to_s }
